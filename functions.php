@@ -72,7 +72,10 @@
     
     }
     add_filter( 'post_updated_messages', 'my_updated_messages' );
-    /*  //Deprecated: contextual_help is deprecated since version 3.3.0!
+    /*  //Deprecated: contextual_help is deprecated since version 3.3.0! 
+    Its not usefull anymore.
+
+    ////////////////////////////////////////////////////////////////////
     function my_contextual_help( $contextual_help, $screen_id, $screen ) { 
         if ( 'product' == $screen->id ) {
       
@@ -91,7 +94,7 @@
       add_action( 'contextual_help', 'my_contextual_help', 10, 3 );
     
       */
-
+      ////////////////////////////////////////////////////////////////////////
       //Taxonomoy
       function my_taxonomies_product() {
         $labels = array(
