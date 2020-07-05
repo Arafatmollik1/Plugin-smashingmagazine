@@ -5,8 +5,7 @@
    /*
    Plugin Name: Awesome Plugin
    Plugin URI: http://my-awesomeness-emporium.com
-   description: >-
-  a plugin to create awesomeness and spread joy
+   description: custom post type plugin, creates a custom post type in admin panel
    Version: 1.2
    Author: Mollik
    Author URI: http://mrtotallyawesome.com
